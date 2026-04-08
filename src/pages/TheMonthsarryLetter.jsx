@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; 
 
-function TheBirthdayLetter() {
+function TheMonthsarryLetter() {
     const navigate = useNavigate();
     const [popupImage, setPopupImage] = useState(null);
 
@@ -76,5 +76,4 @@ function TheBirthdayLetter() {
         </div>
     );
 }
-
 export default TheMonthsarryLetter;
